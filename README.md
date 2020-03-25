@@ -2,10 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
-##How to run this project
-npm install
-ng serve --open
-json-server --watch db.json
+## How to run this project
++ npm install
++ ng serve --open
++ json-server --watch db.json
 
 ## Development server
 
