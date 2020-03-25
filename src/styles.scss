@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+$body-color: rgb(77, 70, 70);
+body{
+  background-color: $body-color;
+}
+
+.carousel-inner img{
+  max-width:100%;
+  max-height:100%;
+  width: auto; 
+}
+#top_3_panel{
+  max-width:100%;
+  max-height:100%;  
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow:10px 10px 80px 5px black inset;
+  img{  
+    margin: 15px;    
+    width: 250px;
+    height: 260px;
+    border: 10px;
+    border-color: black;
+  }
+  .mountain-card{
+    text-align: center;
+  }
+}
+.modal{
+  .modal-content{
+    text-align: center;
+    width: 800px;
+  }
+}
+.modal-body{
+  img{
+    width: 700px;
+  }
+}
+
+#follow_panel{
+  width: 100%;
+    text-align: center;
+    height: 200px;
+    background-color: rgb(223, 215, 215);
+    h2{
+      padding: 15px;
+      font-family: 'Gloria Hallelujah', cursive;
+
+      //font-family: 'Fira Sans', sans-serif;
+    }
+  
+    .instagram .fab {
+      font-size: 3em; 
+      background-clip: #d6249f;
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+}
+
+footer{
+  font-family: 'Gloria Hallelujah', cursive;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  .heart{
+    color: red;
+  }
+}

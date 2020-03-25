@@ -1,0 +1,146 @@
+<div class="cont">
+      <!--carousel-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner" style="font-weight: bold; color: white;">
+            <div class="carousel-item active">
+              <img src="../assets/img/mountain1.jpg" class="d-block w-100" alt="sorry, you can't see this beautiful view :(">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/img/mountain2.jpg" class="d-block w-100" alt="sorry, you can't see this beautiful view :(">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/img/mountain3.jpg" class="d-block w-100" alt="sorry, you can't see this beautiful view :(">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/img/mountain4.jpg" class="d-block w-100" alt="sorry, you can't see this beautiful view :(">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+      </div>
+    <!--Top 3 hills panel-->
+    <div id="top_3_panel">
+      <div class="mountain-card" style="margin-top: 50px;">
+        <img src="../assets/main/mainK.jpg" alt="..." class="rounded-circle">
+        <div class="card border-secondary mb-3" style="max-width: 18rem;">
+          <div class="card-header text-center"> - K2 - </div>
+          <div class="card-body text-secondary">
+            <h5 class="card-title text-center">8611 m n.p.m.</h5>
+            <p class="card-text">Drugi na liście najwyższych szczytów świata, zaraz po Mount Everest. Znajduje się w Karakorum.</p>
+            <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#k2info">Zobacz pełny rozmiar</button>
+          </div>
+        </div>
+      </div>
+      <div class="mountain-card" style="margin-top: -50px;">
+        <img src="../assets/main/mainMount.jpg" alt="..." class="rounded-circle border border-dark">
+        <div class="card border-secondary mb-3" style="max-width: 18rem;">
+          <div class="card-header text-center">- Mount Everest -</div>
+          <div class="card-body text-secondary">
+            <h5 class="card-title text-center">8848 m n.p.m.</h5>
+            <p class="card-text">Najwyższy szczyt świata. Znajduje się w Himalajach.</p>
+            <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#mountinfo">Zobacz pełny rozmiar</button>
+          </div>
+        </div>
+      </div>
+      <div class="mountain-card" style="margin-top: 100px;">
+        <img src="../assets/main/mainKancz.jpg" alt="..." class="rounded-circle">
+        <div class="card border-secondary mb-3" style="max-width: 18rem;">
+          <div class="card-header text-center">- Kanczedzonga -</div>
+          <div class="card-body text-secondary">
+            <h5 class="card-title text-center">8586 m n.p.m.</h5>
+            <p class="card-text">Trzeci co do wysokości najwyższy szczyt świata. Znajduje się w Himalajach.</p>
+            <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#kanczinfo">Zobacz pełny rozmiar</button>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!--Follow panel-->
+      <div id="follow_panel"> 
+        <h2>Follow us</h2>
+        <span style="font-size: 3em; color: #0d579c; margin: 20px;">
+          <i class="fab fa-facebook "></i>
+        </span>
+        <span>
+          <i class="instagram">
+            <i class="fab fa-instagram "></i>
+          </i>  
+        </span>
+        <span style="font-size: 3em; color:#aa1212; margin: 20px;">
+          <i class="fab fa-pinterest"></i>
+        </span>
+      </div>
+      <footer>MADE WITH  <i class="fas fa-heart heart"></i> by Karina Wcisło</footer>
+      <!------------------------------------------------------------------------------------------------------------->
+      <!-- Modal window logic-->
+
+      <!-- K2 info -->
+      <div id="k2info" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">- K2 -</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">            
+            <img src="../assets/main/mainK.jpg" alt="K2">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Mount Everest info -->
+      <div id="mountinfo" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">- Mount Everest -</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+              <img src="../assets/main/mainMount.jpg" alt="Mount Everest" >
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+            </div>
+        </div>
+        </div>
+      </div>
+      <!-- Kanczedzonga info -->
+      <div id="kanczinfo" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">- Kanczedzonga -</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+              <img src="../assets/main/mainKancz.jpg" alt="Kanczedzonga">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+            </div>
+        </div>
+        </div>
+      </div>
+
+</div>

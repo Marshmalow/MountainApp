@@ -1,0 +1,5 @@
+cd NgApp
+npm install
+code .
+ng serve --open
+json-server --watch db.json

@@ -1,0 +1,102 @@
+{
+  "rows": [
+    {
+      "id": 1,
+      "name": "Mount Everest",
+      "height": 8848,
+      "continent": "Asia",
+      "country": "Chiny, Nepal"
+    },
+    {
+      "id": 2,
+      "name": "K2",
+      "height": 8611,
+      "continent": "Asia",
+      "country": "Indie"
+    },
+    {
+      "id": 3,
+      "name": "Kangczengdzonga",
+      "height": 8586,
+      "continent": "Asia",
+      "country": "Indie, Nepal"
+    },
+    {
+      "id": 4,
+      "name": "Mont Blanc",
+      "height": 4807,
+      "continent": "Europa",
+      "country": "Francja, Szwajcaria, Włochy"
+    },
+    {
+      "id": 5,
+      "name": "Monte Rosa",
+      "height": 4634,
+      "continent": "Europa",
+      "country": "Szwajcaria"
+    },
+    {
+      "id": 6,
+      "name": "Dom",
+      "height": 4545,
+      "continent": "Europa",
+      "country": "Szwajcaria"
+    },
+    {
+      "id": 7,
+      "name": "Aconcagua",
+      "height": 6960,
+      "continent": "Ameryka Południowa",
+      "country": "Argentyna"
+    },
+    {
+      "id": 8,
+      "name": "Ojos del Salado",
+      "height": 6885,
+      "continent": "Ameryka Południowa",
+      "country": "Argentyna, Chile"
+    },
+    {
+      "id": 9,
+      "name": "Bonete",
+      "height": 6872,
+      "continent": "Ameryka Południowa",
+      "country": "Argentyna"
+    },
+    {
+      "id": 10,
+      "name": "Denali",
+      "height": 6194,
+      "continent": "Ameryka Północna",
+      "country": "Stany Zjednoczone"
+    },
+    {
+      "id": 11,
+      "name": "Logan",
+      "height": 6050,
+      "continent": "Ameryka Północna",
+      "country": "Kanada"
+    },
+    {
+      "id": 12,
+      "name": "Kilimandżaro",
+      "height": 5895,
+      "continent": "Afryka",
+      "country": "Tanzania"
+    },
+    {
+      "id": 13,
+      "name": "Batian",
+      "height": 5199,
+      "continent": "Afryka",
+      "country": "Kenia"
+    },
+    {
+      "id": 14,
+      "name": "Vinson",
+      "height": 5140,
+      "continent": "Antarktyda",
+      "country": "-"
+    }
+ ]
+}

@@ -1,0 +1,32 @@
+p{
+    color: white !important;
+    text-align: center;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 30px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.822);
+}
+table{
+      
+    text-align: center;
+    width: 100%;
+    
+    th{
+        color: red;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    td{
+        color: rgba(228, 222, 222, 0.822);
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+}
+
+.center-content{
+    display: flex;
+    justify-content: center;
+}
